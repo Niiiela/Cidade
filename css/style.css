@@ -1,0 +1,85 @@
+/*Start Main Settings*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/*End Main Settings*/
+
+/*Start Body*/
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(250, 248, 248) url(../img/wallpaper/fundo.png) left top repeat-x;
+}
+/*End Body*/
+
+/*Start Main Content*/
+.MainContent
+{
+    width: 800px;
+    margin: 0 auto;
+}
+/*End Main Content*/
+
+/*Start Logo and Navigation Bar*/
+.Navigation_Bar
+{
+    height: 160px;
+    padding: 17px;
+    background: url(../img/wallpaper/mapa.png) no-repeat right top;
+}
+/*Start Logo*/
+.log
+{
+    height: 66px;
+    width: 152px;
+    background: url(../img/wallpaper/logo.png) no-repeat center;
+    text-indent: -4000px;
+}
+/*End Logo*/
+
+/*Start Navigation*/
+.navigation ul
+{
+	margin: 0;
+	padding:0;
+	list-style: nome;
+}
+.Navigation_Bar ul
+{
+    margin-top: 30px;
+    background-color: rgba(168, 171, 173, 0.411);
+    float: left;
+}
+
+.Navigation_Bar ul li
+{
+    float: left;
+    list-style: none;
+}
+
+.Navigation_Bar ul a
+{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(../img/wallpaper/divisor.png)no-repeat left center;
+}
+.Navigation_Bar ul .first a
+{
+    background: none;
+}
+
+.Navigation_Bar ul a:hover
+{
+    background-color: rgba(255, 255, 255, 0.445);
+}
+/*End Navigation*/
+/*End Logo and Navigation Bar*/
+/*Start Side Navigation*/
+
+/*End Side Navigation*/
