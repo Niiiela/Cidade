@@ -83,3 +83,44 @@ body
 /*Start Side Navigation*/
 
 /*End Side Navigation*/
+
+/*Start Configure three-column layout*/
+#Content
+{
+    margin-top: 160px;
+    background: rgba(255, 255, 255, 0.445);
+}
+#Primary
+{
+    width:270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: green;
+}
+#Secondary
+{
+    width:270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: rgb(171, 185, 171);
+}
+#Side
+{
+    width:180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: rgb(26, 233, 26);
+}
+#Baseboard
+{
+    clear: both;
+    background: #000000;
+    padding: 10px;
+}
+#baseboard
+{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
+/*End Configure three-column layout*/
