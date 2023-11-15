@@ -90,26 +90,32 @@ body
     margin-top: 160px;
     background: rgba(255, 255, 255, 0.445);
 }
+#Side
+{
+    width:180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
 #Primary
 {
     width:270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: green;
+}
+#Two-columns #Primary
+{
+    width:555px;
+}
+#One-columns #Primary
+{
+    width:750px;
+    margin: 0 0 20px 0;
 }
 #Secondary
 {
     width:270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: rgb(171, 185, 171);
-}
-#Side
-{
-    width:180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background: rgb(26, 233, 26);
 }
 #Baseboard
 {
@@ -124,3 +130,35 @@ body
     color: white;
 }
 /*End Configure three-column layout*/
+/*Box*/
+.Box
+{
+   margin: 10px 0;
+   padding: 5px;
+    background: #f3f3f3 url(../img/wallpaper/box.jpg);
+}
+h2
+{
+    font-size: 1em;
+    background: rgb(213, 223, 223);
+    color: black;
+    padding: 5px;
+}
+.Box-content
+{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+/*Start Side menu formatting*/
+#Side ul li a
+{
+    font-size: 0.9em;
+    padding: 3px;
+    display:block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+/*End Side menu formatting*/
