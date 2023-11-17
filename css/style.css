@@ -40,23 +40,23 @@ body
 /*End Logo*/
 
 /*Start Navigation*/
-.navigation ul
+ul
 {
+    
 	margin: 0;
 	padding:0;
-	list-style: nome;
+	list-style: none;
 }
 .Navigation_Bar ul
 {
-    margin-top: 30px;
-    background-color: rgba(168, 171, 173, 0.411);
+    margin-top: 15px;
+    background: rgba(168, 171, 173, 0.411);
     float: left;
 }
 
 .Navigation_Bar ul li
 {
     float: left;
-    list-style: none;
 }
 
 .Navigation_Bar ul a
@@ -69,6 +69,7 @@ body
     color: white;
     background: url(../img/wallpaper/divisor.png)no-repeat left center;
 }
+
 .Navigation_Bar ul .first a
 {
     background: none;
@@ -79,15 +80,47 @@ body
     background-color: rgba(255, 255, 255, 0.445);
 }
 /*End Navigation*/
+
+/*Start Menu*/
+body.home #navigation a#home,
+body.brasil #navigation a#brasil,
+body.internacional #navigation a#internacional,
+body.economia #navigation a#economia,
+body.saude #navigation a#saude,
+body.ciencia #navigation a#ciencia,
+body.fotos #navigation a#fotos
+{
+    color: #fff;
+	background: #afadad;
+	cursor: text;
+}
+/*End Menu*/
 /*End Logo and Navigation Bar*/
-/*Start Side Navigation*/
-
-/*End Side Navigation*/
-
+/*Start Page content*/
+#Page_content
+{
+    margin-top: 50px;
+    background: #b9c5b3bb;
+}
+#Primary
+{
+    width: 300px;
+    float: left;
+}
+#Secondary
+{
+    width: 300px;
+    float: left;
+}
+#Side
+{
+    width: 200px;
+    float: left;
+}
 /*Start Configure three-column layout*/
 #Content
 {
-    margin-top: 160px;
+    margin-top: 35px;
     background: rgba(255, 255, 255, 0.445);
 }
 #Side
@@ -128,6 +161,7 @@ body
     width: 750px;
     margin: 0 auto;
     color: white;
+    text-align: center;
 }
 /*End Configure three-column layout*/
 /*Box*/
@@ -142,12 +176,12 @@ h2
     font-size: 1em;
     background: rgb(213, 223, 223);
     color: black;
-    padding: 5px;
+    padding: 15px;
 }
 .Box-content
 {
     background: #fff;
-    padding: 5px;
+    padding: 50px;
     margin-top: 5px;
 }
 /*Start Side menu formatting*/
