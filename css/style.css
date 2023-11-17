@@ -167,7 +167,7 @@ body.fotos #navigation a#fotos
 /*Box*/
 .Box
 {
-   margin: 10px 0;
+   margin: 5px 0;
    padding: 5px;
     background: #f3f3f3 url(../img/wallpaper/box.jpg);
 }
@@ -181,7 +181,8 @@ h2
 .Box-content
 {
     background: #fff;
-    padding: 50px;
+    opacity: 0.6;
+    padding: 5px;
     margin-top: 5px;
 }
 /*Start Side menu formatting*/
@@ -193,6 +194,31 @@ h2
     line-height: 30px;
     color: #000;
     text-decoration: none;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid #000000;
+}
+#Side ul a:hover
+{
+	background: #f9f9f9 url(../img/wallpaper/marcador.png) no-repeat left center;
+    padding-left: 20px;
+	color: #a1a1a1;
+}
+#label
+{
+    display: block;
+    cursor: pointer;
+}
+input 
+{
+    padding: 5px;
+    width: 135px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+input.submit
+{
+	width:80px;
+	color: black;
+	background-color: rgb(213, 223, 223);
+	border: 2px solid #a1a1a1;
 }
 /*End Side menu formatting*/
