@@ -1,66 +1,54 @@
-/*Start Main Settings*/
-*
-{
+/*Home of the city*/
+/*Home Settings main*/
+* {
     padding: 0;
     margin: 0;
 }
 /*End Main Settings*/
-
 /*Start Body*/
-body
-{
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: rgb(250, 248, 248) url(../img/wallpaper/fundo.png) left top repeat-x;
+    background: white url(../img/wallpaper/fundo.png) left top repeat-x;
 }
 /*End Body*/
-
-/*Start Main Content*/
-.MainContent
-{
+/*Start main content container*/
+.MainContent {
     width: 800px;
     margin: 0 auto;
 }
-/*End Main Content*/
-
+/*End main content container*/
 /*Start Logo and Navigation Bar*/
-.Navigation_Bar
-{
+.Navigation_Bar {
     height: 160px;
     padding: 17px;
     background: url(../img/wallpaper/mapa.png) no-repeat right top;
 }
 /*Start Logo*/
-.log
-{
+.log {
     height: 66px;
     width: 152px;
     background: url(../img/wallpaper/logo.png) no-repeat center;
     text-indent: -4000px;
 }
 /*End Logo*/
-
-/*Start Navigation*/
-ul
-{
-    
-	margin: 0;
-	padding:0;
-	list-style: none;
+/*Start from menu navigation bar*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.Navigation_Bar ul
-{
+
+.Navigation_Bar ul {
     margin-top: 15px;
     background: rgba(168, 171, 173, 0.411);
     float: left;
 }
 
-.Navigation_Bar ul li
-{
+.Navigation_Bar ul li {
     float: left;
 }
 
-.Navigation_Bar ul a
-{
+.Navigation_Bar ul a {
     font-size: 0.9em;
     display: block;
     padding: 0.5em 1.5em;
@@ -70,18 +58,14 @@ ul
     background: url(../img/wallpaper/divisor.png)no-repeat left center;
 }
 
-.Navigation_Bar ul .first a
-{
+.Navigation_Bar ul .first a {
     background: none;
 }
 
-.Navigation_Bar ul a:hover
-{
+.Navigation_Bar ul a:hover {
     background-color: rgba(255, 255, 255, 0.445);
 }
-/*End Navigation*/
-
-/*Start Menu*/
+/*Home menu setup*/
 body.home #navigation a#home,
 body.brasil #navigation a#brasil,
 body.internacional #navigation a#internacional,
@@ -94,85 +78,39 @@ body.fotos #navigation a#fotos
 	background: #afadad;
 	cursor: text;
 }
-/*End Menu*/
-/*End Logo and Navigation Bar*/
-/*Start Page content*/
-#Page_content
-{
-    margin-top: 50px;
-    background: #b9c5b3bb;
-}
-#Primary
-{
-    width: 300px;
-    float: left;
-}
-#Secondary
-{
-    width: 300px;
-    float: left;
-}
-#Side
-{
-    width: 200px;
-    float: left;
-}
-/*Start Configure three-column layout*/
+/*End menu configuration*/
+/*End logo and navigation bar*/
+
+/*Start of contents box*/
 #Content
 {
     margin-top: 35px;
     background: rgba(255, 255, 255, 0.445);
 }
-#Side
-{
-    width:180px;
-    float: left;
-    margin: 0 0 20px -750px;
-}
+/*beginning Primary Box*/
 #Primary
 {
     width:270px;
     float: left;
     margin: 0 0 20px 195px;
 }
-#Two-columns #Primary
-{
-    width:555px;
-}
 #One-columns #Primary
 {
     width:750px;
     margin: 0 0 20px 0;
 }
-#Secondary
+#Two-columns #Primary
 {
-    width:270px;
-    float: left;
-    margin: 0 0 20px 15px;
+    width:555px;
 }
-#Baseboard
-{
-    clear: both;
-    background: #000000;
-    padding: 10px;
-}
-#baseboard
-{
-    width: 750px;
-    margin: 0 auto;
-    color: white;
-    text-align: center;
-}
-/*End Configure three-column layout*/
-/*Box*/
 .Box
 {
    margin: 5px 0;
    padding: 5px;
-    background: #f3f3f3 url(../img/wallpaper/box.jpg);
+   background: #f3f3f3 url(../img/wallpaper/2.webp);
 }
 h2
-{
+{    
     font-size: 1em;
     background: rgb(213, 223, 223);
     color: black;
@@ -181,11 +119,87 @@ h2
 .Box-content
 {
     background: #fff;
-    opacity: 0.6;
     padding: 5px;
     margin-top: 5px;
 }
-/*Start Side menu formatting*/
+/*beginning Primary image configuration*/
+h3
+{
+	text-transform: uppercase;
+	display: inline;
+	font-size:0.8em;
+	padding: 3px;
+}
+.Emphasis
+{
+    background: #b6b3b3;
+    color: #252323;
+}
+.Img-primary
+{
+    border: 3px solid rgba(168, 171, 173, 0.411);
+    width: 100%;
+}
+/*News_box_contents*/
+.List-img
+{
+    width: 80px;
+}
+/*Formatting news list*/
+#news-list li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 62px;
+}
+
+#news-list li a img {
+	float: left;
+	margin: 5px;
+}
+
+#news-list li a {
+	text-decoration: none;
+}
+
+#news-list li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#news-list li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+
+#news-list li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+/*End Formatting news list*/
+/*End Primary image configuration*/
+/*End Primary Box*/
+/*beginning Secondary box*/
+#Secondary
+{
+    width:270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+.Meeting
+{
+    background: red;
+    color: white;
+}
+/*End Secondary box*/
+/*begninning Side box*/
+#Side
+{
+    width:180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    
+}
 #Side ul li a
 {
     font-size: 0.9em;
@@ -202,6 +216,7 @@ h2
     padding-left: 20px;
 	color: #a1a1a1;
 }
+/*begninning Email Box*/
 #label
 {
     display: block;
@@ -221,4 +236,28 @@ input.submit
 	background-color: rgb(213, 223, 223);
 	border: 2px solid #a1a1a1;
 }
-/*End Side menu formatting*/
+/*End Email Box*/
+/*End Side box*/
+/*End of contents box*/
+/*beginning Baseboard*/
+#Baseboard
+{
+    clear: both;
+    background: #000;
+    padding: 20px;
+}
+#baseboard
+{
+    color: #fffcfc;
+    font-size: 20px;
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+}
+
+/*End Baseboard*/
+/*Contene end of the city*/
+
+
+
+
