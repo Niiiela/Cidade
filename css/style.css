@@ -116,6 +116,7 @@ h2
     color: black;
     padding: 15px;
 }
+
 .Box-content
 {
     background: #fff;
@@ -139,6 +140,11 @@ h3
 {
     border: 3px solid rgba(168, 171, 173, 0.411);
     width: 100%;
+}
+.Img-primary-cidade
+{
+    border: 3px solid rgba(168, 171, 173, 0.411);
+    width: 60%;
 }
 /*News_box_contents*/
 .List-img
